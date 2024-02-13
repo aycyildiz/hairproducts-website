@@ -1,0 +1,43 @@
+/* Question1.css */
+
+.question1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.question1-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px; /* Kart genişliğini istediğiniz değere ayarlayabilirsiniz */
+  margin-top: -300px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.options input[type="radio"] {
+  margin-right: 10px;
+}
+
+.options h2 {
+  margin: 0;
+}
+
+.question1-button {
+  margin-top: 20px;
+  /* Diğer stillendirmeler */
+}
+
+

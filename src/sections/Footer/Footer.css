@@ -1,0 +1,23 @@
+footer {
+  background-color: hsl(316, 66%, 52%);
+  padding: 20px; /* Örnek bir dolgu (padding) değeri */
+  color: white; /* Metin rengi */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-content {
+  text-align: center; /* İçerik merkezde */
+}
+
+p {
+  margin: 5px 0; /* Paragraf etiketlerinin kenar boşluğu */
+}
+
+hr {
+  border: none; /* Çizgi yok */
+  border-top: 1px solid white; /* Üst çizgi */
+  margin: 10px 0; /* Kenar boşluğu */
+}

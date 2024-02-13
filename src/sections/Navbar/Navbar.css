@@ -1,0 +1,113 @@
+.tn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.logo{
+    font-size:1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0.4rem;
+    letter-spacing: 0.1rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: var(--border-radius);
+}
+.search-box{
+    width: 555px;
+    border: var(--border-2);
+    border-radius: var(--border-radius-1);
+    padding: 0.5rem 1rem;
+    border-color: var(--color-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box input{
+    width: 100%;
+    display: block;
+    font-weight: 500;
+}
+
+.search-icon{
+    color: var(--color-dark);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.tn-icons{
+    display: flex;
+    gap:1rem;
+}
+.tn-icons a{
+    font-size: 1.3rem;
+}
+.fav-icon{
+    position: relative;
+}
+.cart-icon .count{
+    position: absolute;
+    top: -0.6rem;
+    right: -0.6rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 2px 4px;
+    border-radius: var(--border-radius-3);
+}
+.fav-icon .count{
+    position: absolute;
+    top: -0.6rem;
+    right: -0.6rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 2px 4px;
+    border-radius: var(--border-radius-3);
+}
+nav hr{
+background: var(--color-light);
+height: 0.05rem;
+width: 100%;
+border: none;
+margin-bottom: 0.5rem;
+}
+.bn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlist{
+    display: flex;
+    gap:2.5rem;
+    text-transform: capitalize;
+    z-index: 111;
+    padding: 0.5rem 0;
+}
+.navlist li a{
+    font-weight: 600;
+    position: relative;
+}
+.navlist li a:hover{
+    color: var(--color-primary);
+}
+.navlist li a::after{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left:0;
+    height: 0.15rem;
+    width:100%;
+    border-radius: var(--border-radius-1);
+    background: var(--color-primary);
+    transition: var(--transition);
+}
+.navlist li a:hover::after{
+    width:100%;
+}

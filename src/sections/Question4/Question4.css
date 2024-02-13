@@ -1,0 +1,41 @@
+/* Question4.css */
+
+.question4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .question4-card {
+    background-color: #f0f0f0;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-top: -300px;
+  }
+  
+  .question4-button {
+    margin-bottom: 20px;
+  }
+  
+  .question4-text {
+    margin-bottom: 10px;
+  }
+  
+  .continue-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .continue-button:hover {
+    background-color: #0056b3;
+  }
+  

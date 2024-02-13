@@ -1,0 +1,26 @@
+.hero{
+    padding: 0 0 9rem;
+}
+.hero-container{
+    display: grd;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+}
+.hero-left{
+    position: relative;
+    top: 11rem;
+    }
+    .hero-left p{
+        margin: 1rem 0;
+    }
+    .hero-stats{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        margin-top: 3rem;
+        width: 60%;
+    }
+    .stat-box{
+        display: flex;
+        flex-direction: column;
+    }
